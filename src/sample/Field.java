@@ -7,7 +7,6 @@ import javafx.scene.image.ImageView;
 //Dziedziczenie po klasie Button z javaFX sprawia ze klase Field mozemy traktowac tak samo.
 // + mozemy dodac swoje pola i metody
 public class Field extends Button {
-
     private ImageView hiddenImage;
     private String path;
 
@@ -24,7 +23,7 @@ public class Field extends Button {
         this.setGraphic(null);
     }
 
-    public void markAsDone(){
+    public void markAsDone() {
         this.setDisabled(true);
     }
 

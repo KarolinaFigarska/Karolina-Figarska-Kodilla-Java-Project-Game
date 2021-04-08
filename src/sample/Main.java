@@ -47,7 +47,6 @@ public class Main extends Application {
         });
 
         flow.getChildren().add(newGame);
-
         label.setFont(new Font("Arial", 20));
         flow.getChildren().add(label);
     }
@@ -62,7 +61,6 @@ public class Main extends Application {
                 fields.add(field);
             }
         }
-
         //Wymieszanie listy pól
         Collections.shuffle(fields);
 
@@ -70,7 +68,6 @@ public class Main extends Application {
         for (int i = 0; i < fields.size(); i++) {
             gridPane.add(fields.get(i), i % 4, i / 4, 1, 1);
         }
-
     }
 
     //Tworzenie pojedynczego pola
